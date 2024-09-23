@@ -6,7 +6,7 @@ const connectDB = async () => {
         console.log("DB Connected");
     })
 
-    await mongoose.connect(`${process.env.MONGODB_URI}/e-commerce`)
+    await mongoose.connect(`${process.env.NEXT_PUBLIC_MONGODB_URI}/e-commerce`)
 
 }
 
